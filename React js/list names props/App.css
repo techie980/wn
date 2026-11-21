@@ -1,0 +1,21 @@
+.container{
+  text-align: center;
+  font-family: Arial;
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.name-card {
+  width: 200px;
+  padding: 20px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px gray;
+}

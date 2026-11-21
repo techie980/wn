@@ -1,0 +1,40 @@
+.container {
+  width: 700px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.products, 
+.cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+} 
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+h3 {
+  color: blue;
+}
+
